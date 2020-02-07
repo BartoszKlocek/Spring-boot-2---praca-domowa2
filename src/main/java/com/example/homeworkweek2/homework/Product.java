@@ -13,6 +13,11 @@ public class Product {
         this.price = price;
     }
 
+    public Product(String name) {
+        this.name = name;
+        this.price = new RandomPrice().getRandomPrice();
+    }
+
     public String getName() {
         return name;
     }

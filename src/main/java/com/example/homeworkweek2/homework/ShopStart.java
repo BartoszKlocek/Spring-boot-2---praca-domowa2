@@ -6,6 +6,6 @@ public interface ShopStart {
     public void addProductToShoppingList(Product product);
     public List<Product> getProductsPrice();
     public void showProductsPrice();
-    public double getSummaryPrice();
-    public void showSummaryPrice();
+    public Double getSummaryPriceNetto();
+    public void showSummaryPriceNetto();
 }
